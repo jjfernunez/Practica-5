@@ -17,16 +17,16 @@ RAZA VARCHAR(10),
 PRECIO DECIMAL(10,2),
 FECHA_NAC DATE,
 ALTURA NUMERIC(3),
-VICTORIAS NUMERIC(3)
+VICTORIAS NUMERIC(3),
 CONSTRAINT FK_CA FOREIGN KEY(jiCodigo) REFERENCES Jinete(CODIGO)
 );
 
 
 
-INSERT INTO Jinete VALUES(001, 'Juan', 12000.0, '17/5/1960', '1001.png', 'Juan', 'Juan');
-INSERT INTO Jinete VALUES(002, 'Andres', 15000.0, '12/2/1972', '1002.png', 'Andres', 'Andres');
-INSERT INTO Jinete VALUES(003, 'Marcos', 12234.0, '11/8/1967', '1003.png', 'Marcos', 'Marcos');
-INSERT INTO Jinete VALUES(004, 'Paula', 9782.0, '9/4/1998', '1004.png', 'Paula', 'Paula');
+INSERT INTO Jinete VALUES(001, 'Juan', 12000.0, '5/17/1960', '1001.png', 0, 'Juan', 'Juan');
+INSERT INTO Jinete VALUES(002, 'Andres', 15000.0, '2/12/1972', '1002.png', 0,'Andres', 'Andres');
+INSERT INTO Jinete VALUES(003, 'Marcos', 12234.0, '8/11/1967', '1003.png',0, 'Marcos', 'Marcos');
+INSERT INTO Jinete VALUES(004, 'Paula', 9782.0, '4/8/1998', '1004.png',0, 'Paula', 'Paula');
 
 
 INSERT INTO Caballo VALUES(111111, 001, 'Andalúz', 4000, '2/4/2003', 150, 2);
