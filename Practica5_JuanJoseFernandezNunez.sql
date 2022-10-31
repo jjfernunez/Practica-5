@@ -23,10 +23,10 @@ CONSTRAINT FK_CA FOREIGN KEY(jiCodigo) REFERENCES Jinete(CODIGO)
 
 
 
-INSERT INTO Jinete VALUES(001, 'Juan', 12000.0, '5/17/1960', '1001.png', 0, 'Juan', 'Juan');
-INSERT INTO Jinete VALUES(002, 'Andres', 15000.0, '2/12/1972', '1002.png', 0,'Andres', 'Andres');
-INSERT INTO Jinete VALUES(003, 'Marcos', 12234.0, '8/11/1967', '1003.png',0, 'Marcos', 'Marcos');
-INSERT INTO Jinete VALUES(004, 'Paula', 9782.0, '4/8/1998', '1004.png',0, 'Paula', 'Paula');
+INSERT INTO Jinete VALUES(001, 'Juan', 12000.0, '5/17/1960', '1001.jpg', 0, 'Juan', 'Juan');
+INSERT INTO Jinete VALUES(002, 'Andres', 15000.0, '2/12/1972', '1002.jpg', 0,'Andres', 'Andres');
+INSERT INTO Jinete VALUES(003, 'Marcos', 12234.0, '8/11/1967', '1003.jpg',0, 'Marcos', 'Marcos');
+INSERT INTO Jinete VALUES(004, 'Paula', 9782.0, '4/8/1998', '1004.jpg',0, 'Paula', 'Paula');
 
 
 INSERT INTO Caballo VALUES(111111, 001, 'Andalúz', 4000, '2/4/2003', 150, 2);
